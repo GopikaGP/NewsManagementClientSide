@@ -7,11 +7,11 @@ function App() {
 
   return (
     <>
-   <h1>Welcome</h1>
-   <Routes>
-   <Route path='/detailedview' element={<DetailedView/>}/>
-   </Routes>
-    
+      <h1>Welcome</h1>
+      <Routes>
+        <Route path='/detailedview' element={<DetailedView />} />
+      </Routes>
+
     </>
   )
 }
